@@ -1,0 +1,45 @@
+*{
+    margin: 0;
+    font-family: monospace;
+    
+}
+
+nav{
+display: flex;
+justify-content: space-between;
+background-color: #d684d1;
+padding: 20px 40px;
+font-size: 20px;
+color: white;
+
+
+}
+
+nav h1{
+    font-size: 50px;
+}
+nav ul{
+    display: flex;
+    gap: 15px;
+    font-weight: bold; 
+    
+    
+}
+
+nav li{
+    list-style: none;
+    
+   
+}
+
+nav li:hover{
+    color: blueviolet;
+    cursor: pointer;
+}
+
+.text {
+    display: flex;
+    margin-top: 50px;
+    
+}
+
