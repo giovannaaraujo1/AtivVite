@@ -1,7 +1,11 @@
 *{
-    margin: 0;
-    font-family: monospace;
-    
+  margin: 0;
+  
+  
+}
+
+a {
+  text-decoration: none;
 }
 
 nav{
@@ -16,58 +20,133 @@ color: white;
 }
 
 nav p{
-    font-size: 30px;
+  font-size: 30px;
 }
 nav ul{
-    display: flex;
-    gap: 15px;
-    font-weight: bold; 
-    font-size: 30px;
-    
-    
+  display: flex;
+  gap: 15px;
+  font-weight: bold; 
+  font-size: 30px;
+  
+  
 }
 
 nav li{
-    list-style: none;
-    
-   
+  list-style: none;
+  
+ 
 }
 
-nav li:hover{
-    color: blueviolet;
-    cursor: pointer;
+nav a:hover{
+  color: blueviolet;
+  cursor: pointer;
 }
 
 .text {
-    display: flex;
-    margin-top: 50px;
-    justify-content: space-around;
-    margin-top: 50px;
-    margin-right:100px;
-    margin-left: 100px;
+  display: flex;
+  margin-top: 50px;
+  justify-content: space-around;
+  margin-top: 50px;
+  margin-right:100px;
+  margin-left: 100px;
 }
 
 .text p{
-    margin-top: 200px;
-    font-size: 60px;
-    color: #d684d1;
-    font-weight: bold;
-    
+  margin-top: 200px;
+  font-size: 60px;
+  color: #d684d1;
+  font-weight: bold;
+  
 }
 
 .mainFooter{
-  display: flex;
-  padding: 20px;
-  background-color: #d684d1;
-  position: fixed;
-  bottom: 0;
-  width: 100%;
+
+padding: 20px;
+background-color: #d684d1;
+/* width: 100%; */
+text-align: center;
 }
 
 .mainFooter p{
-   font-size: 20px;
-   margin-left: 850px;
-   margin-top: 20px;
-   color: white;
-   font-weight: bold;
+ font-size: 20px;
+ text-align: center;
+ color: white;
+ font-weight: bold;
+}
+
+.ods {
+  margin: auto;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 80px;
+  font-family: sans-serif;
+}
+
+.ods img{
+  width: 900px;
+  padding: 40px;
+  
+} 
+
+.ods p{
+  margin-top: 20px;
+  text-align: justify;
+}
+
+.ods h1 {
+  color: blueviolet;
+}
+
+.meuPerfil{
+  margin: auto;
+  display: flex;
+  padding: 80px;
+  font-family: sans-serif;
+  margin: 16px;
+  border: 2px solid #d684d1;
+  justify-content: space-around;
+  
+}
+
+.sobre{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 20px;
+  gap:16px;
+  box-shadow: 1px 1px 5px #d684d1;
+  border-radius: 8px;
+  color: #d684d1;
+  font-weight: bold;
+}
+
+.sobre p{
+  width: 150px;
+  
+}
+
+.meuPerfil img{
+  width: 200px;
+  height: 200px;
+  border-radius: 100px;
+  align-items: center;
+  
+}
+
+.meuPerfil ul{
+  margin-top: 16px;
+  margin-bottom: 16px;
+}
+.meuPerfil li{
+  list-style: none;
+}
+
+.linkedin{
+  display: flex;
+  align-items: center;
+  gap: 16px;
+}
+.perfis img {
+  width: 50px;
 }
